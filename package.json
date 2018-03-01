@@ -1,0 +1,33 @@
+{
+  "name": "gatopulpo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "^4.14.1",
+    "express-ejs-layouts": "~2.2.0",
+    "mongoose": "~4.8.5",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "description": "Battlegate proyect",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alec427/Gatopulpo.git"
+  },
+  "author": "Alec Plehn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alec427/Gatopulpo/issues"
+  },
+  "homepage": "https://github.com/alec427/Gatopulpo#readme"
+}
